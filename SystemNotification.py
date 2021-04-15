@@ -34,7 +34,7 @@ while flag:
 		
 			notification.notify(
 	    			title='Beep beep beep ....',
-	    			message='Dude get a life!! '+str(i)+' hrs have passed since you logged in..',
+	    			message='Dude get a life!! '+str(i+1)+' hrs have passed since you logged in..',
 	    			app_icon=None, 
 	    			timeout=10,  
 				)	
