@@ -9,6 +9,7 @@ The program uses plyer module for notification and time module for tracking syst
 Algorithm:
 
 1. Calculate the current time by using time module.
-2. Set the target time for notification is equal to 5 hrs more than current time.
-3. Run loop until current time is equal to system time.
-4. If current time is equal to system time then send notification with some message and exit the loop.
+2. Create a list of target_time starting from 1 hr from current time till 4 hrs from current time.
+3. Run loop until current time is equal to target_time list item.
+4. Check if current time is equal to target_time list item then send a notifiaction to user with message stating how many hours have passed since you logged-in.
+5. Continue step 4 till end of target_time list and after that exit loop.
