@@ -45,6 +45,6 @@ while flag:
 				exit_loop()
 				
 
-		flag=False
+		
 	
 	
